@@ -39,8 +39,8 @@
             bindings = <
 &trans  &kp F1            &kp F2   &kp F3             &kp F4        &kp INSERT     &kp DELETE     &kp N7        &kp N8        &kp N9        &kp KP_DIVIDE    &trans
 &trans  &mt RIGHT_GUI F5  &kp F6   &mt LEFT_SHIFT F7  &mt RCTRL F8  &kp HOME       &kp END        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_MULTIPLY  &kp KP_PLUS
-&trans  &kp F9            &kp F10  &kp F11            &kp F12       &kp PAGE_UP    &kp PAGE_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS     &kp PERIOD
-                                   &kp LGUI           &trans        &kp SPACE      &kp RIGHT_ALT  &kp N0        &kp COMMA
+&trans  &kp F9            &kp F10  &kp F11            &kp F12       &kp PAGE_UP    &kp PAGE_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS     &kp COMMA
+                                   &kp LGUI           &trans        &kp SPACE      &kp RIGHT_ALT  &kp N0        &kp PERIOD
             >;
         };
 
