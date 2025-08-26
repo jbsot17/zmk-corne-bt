@@ -37,7 +37,7 @@
             >;
         };
 
-        rise_layer {
+        number_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -46,14 +46,14 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp F1            &kp F2   &kp F3             &kp F4        &kp INSERT     &kp DELETE     &kp N7        &kp N8        &kp N9        &kp SLASH     &trans
-&trans  &mt RIGHT_GUI F5  &kp F6   &mt LEFT_SHIFT F7  &mt RCTRL F8  &kp HOME       &kp END        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp PLUS
-&trans  &kp F9            &kp F10  &kp F11            &kp F12       &kp PAGE_UP    &kp PAGE_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &kp COMMA
-                                   &kp LGUI           &trans        &kp SPACE      &kp RIGHT_ALT  &kp N0        &kp PERIOD
+&trans  &kp F1            &kp F2   &kp F3             &kp F4        &kp INSERT    &kp DELETE     &kp N7        &kp N8        &kp N9        &kp SLASH     &trans
+&trans  &mt RIGHT_GUI F5  &kp F6   &mt LEFT_SHIFT F7  &mt RCTRL F8  &kp HOME      &kp PAGE_UP    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK  &kp PLUS
+&trans  &kp F9            &kp F10  &kp F11            &kp F12       &kp END       &kp PAGE_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &kp COMMA
+                                   &kp LGUI           &trans        &kp SPACE     &kp RIGHT_ALT  &kp N0        &kp PERIOD
             >;
         };
 
-        lower_layer {
+        symbol_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
