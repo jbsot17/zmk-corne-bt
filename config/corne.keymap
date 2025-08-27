@@ -39,10 +39,10 @@
 
         number_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB | F1 | F2 | F3 | F4 | INS |   | DEL | 7 | 8 | 9 | /  | BKSP |
-            // | CTRL | F5 | F6 | F7 | F8 | HOME|   | P_U | 4 | 5 | 6 | *  |   +  | 
-            // | SHFT | F9 | F10| F11| F12| END |   | P_D | 1 | 2 | 3 | -  |   ,  |
-            //                  | GUI |   | SPC |   | ENT |  0   | . |
+            // |  TAB |  F1  |  F2  |  F3  | F4 |   INS    |   |  DEL  |  7  |  8    |  9  |  /  | BKSP |
+            // | CTRL |  F5  |  F6  |  F7  | F8 |  P_UP    |   |   .   |  4  |  5    |  6  |  *  |   +  | 
+            // | SHFT |  F9  |  F10 |  F11 | F12|  P_DOWN  |   | 0     |  1  |  2    |  3  |  -  |   ,  |
+            //                      | GUI  |    |  SPC     |   | ENT   |     | b_num |
 
             display-name = "Lower";
             bindings = <
@@ -71,10 +71,10 @@
 
         adjust_layer {
             // -----------------------------------------------------------------------------------------
-            // |   |  |  BT0 |  BT1    |  BT2   |    |   |     |    BT3   |    BT4   |       |       |      |
-            // |   |  | MUTE |  V_DOWN | V_UP   |    |   |     | BRIG_DEC | BRIG_INC | PREVI | NEXT  |      |
-            // |   |  |      |         | BT_CLR |    |   |     |          |          |       |       |      |
-            //                   |     |        |    |   | P_P |     | BT_CLR_ALL |
+            // |   |  |  BT0 |  BT1    |  BT2   |    |    |     |    BT3   |    BT4     |       |       |      |
+            // |   |  | MUTE |  V_DOWN | V_UP   |    |    |     | BRIG_DEC |  BRIG_INC  | PREVI | NEXT  |      |
+            // |   |  |      |         | BT_CLR |    |    |     |          |            |       |       |      |
+            //               |         |        |    |    | P_P |          | BT_CLR_ALL |
 
             display-name = "extra_1";
             bindings = <
