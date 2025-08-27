@@ -23,10 +23,10 @@
 
         base_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | DEL |
+            // |  TAB |  Q  |  W  |  E   |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | CTRL |  A  |  S  |  D   |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
+            // | SHFT |  Z  |  X  |  C   |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
+            //                    | caps | LWR | SPC |   | ENT | RSE  | DEL |
 
             display-name = "Base";
             bindings = <
@@ -42,7 +42,7 @@
             // |  TAB |  F1  |  F2  |  F3  | F4 |   INS    |   |  DEL  |  7  |  8    |  9  |  /  | BKSP |
             // | CTRL |  F5  |  F6  |  F7  | F8 |  P_UP    |   |   .   |  4  |  5    |  6  |  *  |   +  | 
             // | SHFT |  F9  |  F10 |  F11 | F12|  P_DOWN  |   | 0     |  1  |  2    |  3  |  -  |   ,  |
-            //                      | GUI  |    |  SPC     |   | ENT   |     | b_num |
+            //                      |      |    |  SPC     |   | ENT   |     | b_num |
 
             display-name = "Lower";
             bindings = <
@@ -55,10 +55,10 @@
 
         symbol_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |  TAB |  !  |  @  |  #  |  $   |  %  |   |  ^   |  &    |  *   |  (   |  )     |  BKSP |
+            // | CTRL |  -  |  =  |  [  |  ]   |  \  |   | HOME |  LEFT | DOWN |  UP  |  RIGHT |  END  |
+            // | SHFT |  _  |  +  |  {  |  }   |  <  |   |  >   |   :   |   |  |  ?   |   "    |  SHFT |
+            //                    |     |  MO3 | SPC |   | ENT  |       |      |
 
             display-name = "Raise";
             bindings = <
