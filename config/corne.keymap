@@ -22,8 +22,8 @@
             key-positions = <19 20>;
         };
 
-        control_right {
-            bindings = <&kp RCTRL>;
+        ctrl_right {
+            bindings = <&kp RIGHT_CONTROL>;
             key-positions = <19 20 21>;
         };
     };
