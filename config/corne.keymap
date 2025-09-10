@@ -16,6 +16,16 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
         };
+
+        right_shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <19 20>;
+        };
+
+        control_right {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 21>;
+        };
     };
 
     keymap {
