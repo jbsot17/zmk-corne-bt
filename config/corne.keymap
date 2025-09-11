@@ -31,11 +31,6 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <16 15>;
         };
-
-        ctrl_left {
-            bindings = <&kp RIGHT_CONTROL>;
-            key-positions = <14 15 16>;
-        };
     };
 
     keymap {
