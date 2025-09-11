@@ -21,6 +21,11 @@
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <19 20>;
         };
+
+        ctrl_right {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20 21>;
+        };
     };
 
     keymap {
