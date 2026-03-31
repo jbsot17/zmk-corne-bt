@@ -36,11 +36,6 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <16 15 14>;
         };
-
-        alt_alternative {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <3 4>;
-        };
     };
 
     keymap {
